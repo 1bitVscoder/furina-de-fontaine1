@@ -60,7 +60,7 @@ async function POST(req) {
             },
             ...messages
         ],
-        temperature: 0.8,
+        temperature: 0.9,
         max_tokens: 100
     });
     return Response.json({
