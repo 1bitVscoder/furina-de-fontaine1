@@ -9,7 +9,7 @@ export async function POST(req) {
   const { messages, systemPrompt } = await req.json();
   
   const response = await groq.chat.completions.create({
-    model: "llama-3.1-8b-instant", // High speed for gaming vibes
+    model: "llama-3.1-8b-instant",
     messages: [
       { role: "system", content: systemPrompt },
       ...messages

@@ -6,7 +6,7 @@ export const metadata = {
     description: "An interactive AI experience in the heart of Fontaine.",
     url: "https://furina-de-fontaine1.vercel.app/",
     siteName: "Furina Court",
-    // Remember: this image must be in your 'public' folder!
+    
     images: [
       {
         url:  "/og-Furina.jpeg", 
@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* This ensures your high-end fonts load properly */}
+        {}
         <link 
           href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,600&display=swap" 
           rel="stylesheet" 
