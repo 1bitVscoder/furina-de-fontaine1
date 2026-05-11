@@ -1,4 +1,5 @@
 
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata = {
   title: 'The Court of Fontaine',
@@ -33,7 +34,7 @@ export default function RootLayout({ children }) {
       </head>
       <body style={{ margin: 0, padding: 0 }}>
         {children}
-        
+        <Analytics />
       </body>
     </html>
   )
